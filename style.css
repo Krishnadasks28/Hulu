@@ -684,6 +684,7 @@ header{
 
 .footer-logo-img{
     padding-right: 25px;
+  cursor:pointer;
 }
 
 .footer-bottom-row{
