@@ -1,0 +1,709 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+
+html,body{
+    font-family: 'Rubik', sans-serif;
+    background: #0b0c0f;
+}
+
+header{
+    height: 660px;
+    background-repeat: no-repeat;
+    background: url(IMG/hulu_original.jpg) no-repeat center center / cover;
+}
+
+.hulu_logo{
+    height: 50px;
+    width: 72px;
+}
+
+.Htop{
+    display: flex;
+    justify-content: space-around;
+    gap: 75em;
+    height: 74px;
+}
+
+.log-in{
+    margin-top: 20px;
+    height: 40px;
+    width: 84px;
+    font-size: 15px;
+    background: transparent;
+    color:rgb(170, 177, 190);
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.log-in:hover{
+    color:#ffffff;
+    background-color: #424957;
+}
+
+.Hcontainer{
+    height: 580px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.subscribe{
+    justify-content: center;
+    height: 242px;
+    display: grid;
+    grid-template-columns: 313.5px 313.5px;
+    grid-template-rows: 37px 64px 64px 60px;
+    grid-column-gap: 40px;
+}
+
+.Disney{
+    font-size: 13px;
+    color:rgb(0, 237, 130);
+    font-weight: 600;
+    text-align: center;
+}
+
+.duo-bimg{
+    text-align: center;
+}
+
+.Duo-img{
+    height: 53px;
+    width: 188px;
+}
+
+.Trio-img{
+    text-align: center;
+}
+
+.trio-img{
+    height: 63px;
+    width: 282px;    
+}
+
+.subhead{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.button1{
+    padding-top: 30px;
+}
+
+.subscribe-button{
+    color: rgb(4, 4, 5);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    width: 319px;
+    height: 40px;
+    background-color: rgb(28, 231, 131);
+    border-radius: 4px;
+    border-width: 0px;
+}
+.subscribe-button:hover{
+    background-color: rgba(28, 231, 131, 0.5);
+    transition-delay: 0.025s;
+}
+
+.Hbottom
+{
+    text-align: center;
+    height: 100px;
+    line-height: 40px;
+}
+
+.terms{
+    margin-top: 20px;
+    border: none;
+    background: transparent;
+    text-decoration: underline #ffffff ;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.sign-up{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-decoration-thickness: 1px;
+}
+
+.library{
+    height: 895px;
+}
+
+.library-container{
+    height: 303px;
+    width: 996px;
+    padding-top: 88px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-left: 261px;
+    margin-right: 261px;
+}
+
+.library-content{
+    width: 956px;
+    height: 165px;
+    text-align: center;
+}
+
+.library-title{
+    color: #00ED82;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.6px;    
+}
+
+.library-head{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: -0.5px;
+}
+
+.library-paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.32;
+    letter-spacing: 0;
+}
+
+.library-posters{
+    height: 492px;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 492px;
+    grid-template-columns:  311px 311px 311px 311px;
+    grid-gap: 20px;
+}
+
+.grid{
+    height: 492px;
+    width: 311px;
+    background-color: #00ED82;
+}
+
+
+.bob-img{
+    background-image: url(IMG/Bobs_Burgers.jpg);
+    background-repeat: no-repeat;
+    background-size: 295px;
+    height: 450px;
+    width: 295px;
+    border-radius: 13px;
+    cursor: pointer;
+
+}
+.prey-img{
+    background-image: url(IMG/Prey.jpg);
+    background-repeat: no-repeat;
+    background-size: 295px;
+    height: 452px;
+    width: 295px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.handmaids-img{
+    background-image: url(IMG/Handmaids_Tale.jpg);
+    background-repeat: no-repeat;
+    background-size: 295px;
+    height: 452px;
+    width: 295px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.hod-img{
+    background-image: url(IMG/HOD.jpg);
+    background-repeat: no-repeat;
+    background-size: 295px;
+    height: 452px;
+    width: 295px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1));
+    padding: 4px;
+    border-radius: 13px;
+}
+
+.overlay:hover{
+    background-color: rgba(4, 4, 5, 0.6);
+}
+
+.overlay-border{
+    width: 100%;
+    height: 467px;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 16px;
+    border: 4px solid transparent;
+}
+
+.overlay-border:hover{
+    border: 4px solid #797d84;
+    border-radius: 16px;
+}
+
+.poster-title{
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.img_text_overlay{
+    height: 117px;
+    width: 100%;
+    padding: 17px;
+    text-align: left;
+}
+
+.poster-subhead{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 2.24;
+    letter-spacing: 0;
+}
+
+.billboard_container{
+    height: 587px;
+    display: flex;
+    justify-content: center;
+}
+
+.billboard{
+    height: 587px;
+    width: 976px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.billboard_eyebrow{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    color: #1ce783;
+}
+
+.billboard_head{
+    font-size: 49px;
+    font-weight: 600;
+    letter-spacing: -.5px;
+    margin-top: 18px;
+}
+
+.billboard_subhead{
+    margin-top: 22px;
+    margin-left: 126px;
+    margin-right: 127px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.23;
+}
+
+.billboard_paragraph{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.46;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 18px;
+    margin-left: 117px;
+    margin-right: 117px;
+}
+
+.billboard_button{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    line-height: 1;
+    background: transparent;
+    margin-top: 18px;
+    margin-left: 342px;
+    margin-right: 342px;
+    border: none;
+    text-decoration: underline;
+}
+
+.sports-container{
+    height: 811px;
+    background-image: url(IMG/hulu_nba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.content-area{
+    height: 100%;
+    padding-top: 200px;
+    padding-bottom: 190px;
+    margin-right: 271px;
+    margin-left: 271px;
+}
+
+.container-overlay{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg,rgba(0,0,0,0.8) -57.5%,rgba(0,0,0,0) 98.72%);
+}
+
+.content-head{
+    margin-top: 72px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+}
+
+.content-paragraph{
+    margin-top: 25px;
+    width: 490px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.32;
+}
+
+.logo_wall{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.1em;
+    width: 350px;
+    height: 75px;
+    margin-top: 25px;
+    padding-right: 5px;
+}
+
+.logos{
+    width: 75px;
+    height: 55px;
+}
+
+.logo_img{
+    width: 44px;
+    height: 24px;
+}
+
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.bottom-line{
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.plan-area{
+    height: 1130px;
+    background-color: #0b0c0f;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-container{
+    width: 976px;
+    height: 1067px;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+}
+.plan-header{
+    height: 243px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.header-title{
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.header-description{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.32;
+}
+
+.base-plan-container{
+    height: 215.8px;
+    position: sticky;
+    background-color: #0b0c0f;
+    top: 0;
+    display: flex;
+    border-top: 1px solid rgba(200, 200, 200, 0.4);
+    border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+}
+
+.plan-title1{
+    width: 406.66px;
+    padding: 65px 0px 15px; 
+    text-align: center;
+}
+
+.plan-title2{
+    width: 284.66px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 8px 26px;
+    justify-content: space-between;
+}
+
+.plan-title3{
+    width: 284.66px;
+    padding: 32px 8px 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-header{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.5px; 
+}
+
+.title-img{
+    height: 55px;
+}
+
+.title2-eyebrow{
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-discription{
+    text-align: center;
+    height: 50px;
+}
+
+.title2-button{
+    height: 48px;
+}
+
+.eyebrow-background{
+    width: 136px;
+    height: 30px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title2-eyebrow-text{
+    font-size: 9px;
+    font-weight: 500;
+    color:rgb(22, 24, 29);
+    letter-spacing: 1px;
+}
+
+.discription-head{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    color: rgb(190, 192, 194);
+}
+
+.title-discription-text{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.subscribe-button2{
+    height: 48px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(4, 4, 5);
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 0.6px;
+}
+
+.blackspace{
+    height: 33px;
+}
+
+.plan-features{
+    height: 577px;
+}
+
+.plan-feature-item{
+    height: 60px;
+    border-bottom:1px solid rgba(200, 200, 200, 0.4);
+    display: flex;
+}
+
+.feature-title{
+    height: 100%;
+    width: 406.66px;
+    padding: 20px 0px 20px;
+    font-size: 14px;
+}
+
+.checkbox1{
+    height: 100%;
+    width: 284.68px;
+    text-align: center;
+    padding: 20px 0px 20px;
+    font-size: 14px;
+}
+
+.checkbox2{
+    height: 100%;
+    width: 284.68px;
+    text-align: center;
+    padding: 20px 0px 20px;
+    font-size: 14px;
+}
+
+.plan-feature-disclaimer{
+    height: 29px;
+    padding-left: 5px;
+    margin-top: 10px;
+    line-height: 0.8;
+}
+
+.disclaimer{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.footer-container{
+    height: 493px;
+    background-color: #e8eaed;
+    padding: 0px 140px;
+}
+
+.footer-cover{
+    width: 100%;
+    height: 100%;
+}
+
+.hulu_footer{
+    height: 331px;
+    padding-top: 53px;
+    padding-bottom: 86px;
+    border-bottom: 2px solid rgba(200, 200, 200, 0.4);
+}
+
+.footer-row{
+    height: 12px;
+    width: 100%;
+    display: flex;
+}
+
+.footer-title{
+    width: 810px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: rgb(39, 44, 52)
+}
+
+.footer-title2{
+    width: 200px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: rgb(39, 44, 52);
+}
+
+.footer-title3{
+    width: 200px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: rgb(39, 44, 52);
+}
+
+.footer-box-container{
+    height: 193px;
+    width: 100%;
+    display: flex;
+}
+
+.footer-content{
+    height: 165px;
+    width: 202px;
+    line-height: 1.8;
+}
+
+.footer-links{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(88, 97, 116);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-bottom{
+    height: 100px;
+    padding-top: 32px;
+}
+
+.footer-logos{
+    width: 200px;
+    height: 68px;
+    padding-top: 5px;
+}
+
+.footer-logo-img{
+    padding-right: 25px;
+}
+
+.footer-bottom-row{
+    height: 50px;
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-columns{
+    height: 32px;
+    width: fit-content;
+    
+}
+
+.footer-bottom-links{
+    color: rgb(88, 97, 116);
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
