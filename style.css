@@ -15,7 +15,8 @@ html,body{
 header{
     height: 660px;
     background-repeat: no-repeat;
-    background: url(hulu_original.jpg) no-repeat center center / cover;
+    background: url(hulu_original.jpg);
+  background-size: cover;
 }
 
 .hulu_logo{
